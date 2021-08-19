@@ -15,7 +15,7 @@ description: "Save as bird name"
         </h3>
         {% endif %}
         <div class="post-content-preview">
-            {% if post.lang == 'en' %}
+            {% if post.lang == 'ko' %}
                 {{ post.content | strip_html | truncate:300 }}
             {% else %}
                 {{ post.content | strip_html | truncate:200 }}
