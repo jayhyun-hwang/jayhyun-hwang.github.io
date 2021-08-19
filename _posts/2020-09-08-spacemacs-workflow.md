@@ -1,4 +1,15 @@
-- API란
+---
+layout: post
+title: "API"
+subtitle: 'API, GraphQL, payload'
+author: "jay"
+header-style: text
+tags:
+  - Network
+  - cs
+---
+
+API란
   
   - Application Programming Interface
   - 프로그램들이 서로 상호작용하는 것을 도와주는 매개체
@@ -38,5 +49,3 @@
       }
   }
   ```
-
-  
