@@ -1,7 +1,7 @@
 # Site settings
 title: Jays
 SEOTitle: Jays
-header-img: img/birds_main.PNG
+header-img: img/Birds-of-CZ.jpg
 email: wogus0501@gmail.com
 description: "actually love coffee than green tea"
 keyword: "Web, JavaScript"
@@ -59,8 +59,10 @@ kramdown:
 
 
 # Disqus settings
-disqus_username: jayhyun
-
+disqus:
+  # Leave shortname blank to disable comments site-wide.
+  # Disable comments for any post by adding `comments: false` to that post's YAML Front Matter.
+  shortname: jay
 # Netease settings
 netease_comment: false
 
