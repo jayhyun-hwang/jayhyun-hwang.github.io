@@ -1,7 +1,7 @@
 # Site settings
 title: Jays
 SEOTitle: Jays
-header-img: img/home-bg.jpg
+header-img: img/birds_main.PNG
 email: wogus0501@gmail.com
 description: "actually love coffee than green tea"
 keyword: "Web, JavaScript"
@@ -59,7 +59,7 @@ kramdown:
 
 
 # Disqus settings
-disqus_username: jay
+disqus_username: jayhyun
 
 # Netease settings
 netease_comment: false
