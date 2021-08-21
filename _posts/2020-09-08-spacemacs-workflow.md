@@ -33,7 +33,6 @@ API란
   - Static Custom Type
     - 백엔드에서 스키마 타입을 정함
   - 프론트에서 데이터 구조를 쉽게 볼 수 있다.
-  - 
 
 - 페이로드 payload
 
