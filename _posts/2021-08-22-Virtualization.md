@@ -10,7 +10,7 @@ tags:
   - Network
   - OS
 ---
->  다음 글을 참고하였습니다. [](https://www.baeldung.com/cs/virtualization-intro#introduction)
+>  다음 글을 참고하였습니다. <https://www.baeldung.com/cs/virtualization-intro#introduction>
 
 
 
@@ -35,7 +35,5 @@ tags:
 사용자 또는 프로그램이 물리적 환경에서 추가 리소스가 필요한 명령을 VM에 발행하면 하이퍼바이저는 요청을 물리적 시스템에 전달하고 변경 사항을 캐시합니다.
 
 
-
-![Vitualization-300x231-1](Vitualization-300x231-1.png)
 
 ![img](https://www.baeldung.com/wp-content/uploads/sites/4/2020/06/Vitualization-300x231-1.png)
