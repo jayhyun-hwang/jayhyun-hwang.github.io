@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: "API"
 subtitle: 'API, GraphQL, payload'
 author: "jay"
