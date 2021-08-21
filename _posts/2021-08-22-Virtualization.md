@@ -36,4 +36,4 @@ tags:
 
 
 
-![Vitualization-300x231-1](./Vitualization-300x231-1.png)
+![img](https://www.baeldung.com/wp-content/uploads/sites/4/2020/06/Vitualization-300x231-1.png)
