@@ -8,6 +8,7 @@ keyword: "golang, IT, Computer Science, Network, Server, backend, Go, JavaScript
 url: "https://jayhyun-hwang.github.io"              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 locale: "ko"
+lang: "Ko_KR"
 # Publish posts or collection documents with a future date.
 future: true
 
