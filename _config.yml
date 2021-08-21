@@ -64,11 +64,11 @@ kramdown:
 #   # Leave shortname blank to disable comments site-wide.
 #   # Disable comments for any post by adding `comments: false` to that post's YAML Front Matter.
 #   shortname: jay
-comments:
-  provider: "disqus"
-  disqus:
-    shortname: jayhyun
-#disqus_username: jayhyun
+# comments:
+#   provider: "disqus"
+#   disqus:
+#     shortname: jayhyun
+disqus_username: jay
 # Netease settings
 netease_comment: false
 
@@ -86,7 +86,7 @@ netease_comment: false
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "(이 새의 이름도 jay이다)<br>안녕하세요 backend developer Jay 입니다."
+sidebar-about-description: "(이 새의 이름도 Jay이다)<br>안녕하세요.<br>backend developer Jay 입니다."
 sidebar-avatar: /img/Blue_jay_in_PP_(30960).jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
