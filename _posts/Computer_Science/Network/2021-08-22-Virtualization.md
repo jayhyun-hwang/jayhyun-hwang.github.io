@@ -10,7 +10,7 @@ tags:
   - Network
   - OS
 ---
->  다음 글을 참고하였습니다. (https://www.baeldung.com/cs/virtualization-intro#introduction)
+>  다음 글을 참고하였습니다. https://www.baeldung.com/cs/virtualization-intro#introduction
 
 
 
@@ -36,4 +36,4 @@ tags:
 
 
 
-![Vitualization-300x231-1](C:\GoWorkspace\src\jayhyun-hwang.github.io\_posts\Computer_Science\Network\Vitualization-300x231-1.png)
+![Vitualization-300x231-1](./Vitualization-300x231-1.png)
