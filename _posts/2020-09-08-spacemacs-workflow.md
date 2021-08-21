@@ -1,9 +1,10 @@
 ---
-layout: post
+layout: default
 title: "API"
 subtitle: 'API, GraphQL, payload'
 author: "jay"
 header-style: text
+comments: true
 tags:
   - Network
   - cs
