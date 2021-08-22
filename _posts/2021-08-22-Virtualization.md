@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "가상화란(Virtualization)"
+title: "가상화(Virtualization)"
 subtitle: '컴퓨터 리소스를 논리적으로 분할하는 기술'
 author: "jay"
 header-style: text
