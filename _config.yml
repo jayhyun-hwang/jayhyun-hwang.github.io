@@ -18,8 +18,8 @@ RSS: false
 #zhihu_username:     huxpro
 github_username:    jayhyun-hwang
 #twitter_username:   huxpro
-#facebook_username:  huxpro
-#linkedin_username:  firstname-lastname-idxxxx
+#facebook_username: 
+linkedin_username:  JAEHYUN HWANG
 
 
 
@@ -112,11 +112,11 @@ page-mathjax: false
 
 # Friends
 friends: [
-    {
-    #     title: "Su",
-    #     href: "http://su.gallery/"
-    # },{
-        title: "no one",
-        href: "no one"
-    }
+    # {
+    # #     title: "Su",
+    # #     href: "http://su.gallery/"
+    # # },{
+    #     title: "no one",
+    #     href: "no one"
+    # }
 ]
