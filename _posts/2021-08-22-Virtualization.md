@@ -6,9 +6,9 @@ author: "jay"
 header-style: text
 comments: true
 tags:
-  - computer science
-  - network
-  - os
+  - Computer Science
+  - Network
+  - OS
 ---
 
 > **Baeldung**의 글을 번역하고 정리했습니다.
