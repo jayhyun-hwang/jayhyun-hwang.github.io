@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "가상화"
-subtitle: '가상화 소개'
+title: "가상화란(Virtualization)"
+subtitle: '컴퓨터 리소스를 논리적으로 분할하는 기술'
 author: "jay"
 header-style: text
 comments: true
@@ -13,7 +13,7 @@ tags:
 
 > **Baeldung**의 글을 번역하고 정리했습니다.
 >
-> 참고 글: <https://www.baeldung.com/cs/virtualization-intro>
+> 참고 글: <https://www.baeldung.com/cs/virtualization-intro>{:target="_blank"}
 
 ### 1. 소개
 
@@ -95,7 +95,7 @@ tags:
 
 ---
 
-### 7. 정리
+### 정리
 
 [하이퍼바이저](https://www.redhat.com/ko/topics/virtualization/what-is-a-hypervisor#:~:text=%ED%95%98%EC%9D%B4%ED%8D%BC%EB%B0%94%EC%9D%B4%EC%A0%80%EB%8A%94%20%EA%B0%80%EC%83%81%20%EB%A8%B8%EC%8B%A0,%ED%95%98%EA%B3%A0%20%EA%B5%AC%EB%8F%99%ED%95%98%EB%8A%94%20%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4%EC%9E%85%EB%8B%88%EB%8B%A4.&text=%EC%84%9C%EB%A1%9C%20%EB%8B%A4%EB%A5%B8%20%EC%97%AC%EB%9F%AC%20%EA%B0%9C%EC%9D%98%20%EC%9A%B4%EC%98%81,%EC%9D%98%20%ED%95%B5%EC%8B%AC%EC%A0%81%EC%9D%B8%20%EC%9D%B4%EC%A0%90%EC%9E%85%EB%8B%88%EB%8B%A4.){:target="_blank"}(Hypervisor): 하이퍼바이저란 가상머신(VM)을 생성하고 구동하는 소프트웨어를 말하며, 가상화를 수행하는 주체 소프트웨어라고 볼 수 있다.
 
