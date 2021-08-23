@@ -11,7 +11,7 @@ tags:
   - OS
 ---
 
-> **Baeldung**의 글을 번역하고 정리했습니다.
+> **Baeldung**의 글을 번역하고 정리하는 것을 허가 받았습니다.
 >
 > 참고 글: <https://www.baeldung.com/cs/virtualization-intro>{:target="_blank"}
 
