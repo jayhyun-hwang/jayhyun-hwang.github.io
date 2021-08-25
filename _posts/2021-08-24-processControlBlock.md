@@ -10,7 +10,7 @@ tags:
   - OS
 ---
 
-> **Baeldung**의 동의하에 글을 번역하고 정리하였습니다.
+> Baeldung의 동의하에 글을 번역하고 정리하였습니다.
 >
 > 참고 글: <https://www.baeldung.com/cs/process-control-block>{:target="_blank"}
 
