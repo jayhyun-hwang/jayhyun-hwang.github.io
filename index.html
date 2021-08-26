@@ -6,8 +6,9 @@ description: "Save as birds name"
 {% for post in paginator.posts %}
 <div class="post-preview">
     <a href="{{ post.url | prepend: site.baseurl }}">
-        <h2 class="post-title">
-            [{{ post.tags[0]}}] {{ post.title }}
+        <h3 style="font-size: 20px !important; color: #777777;">[{{ post.tags[0]}}]</h3>
+        <h2 class="post-title" style="margin-top: 10px !important;">
+            {{ post.title }}
         </h2>
         {% if post.subtitle %}
         <h3 class="post-subtitle">
