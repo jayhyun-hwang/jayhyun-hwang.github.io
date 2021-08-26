@@ -7,7 +7,7 @@ description: "Save as birds name"
 <div class="post-preview">
     <a href="{{ post.url | prepend: site.baseurl }}">
         <h2 class="post-title">
-            {"["+{ post.tags[0]}+"]" { post.title }}
+            {"["+{ post.tags[0]}+"]"} {{ post.title }}
         </h2>
         {% if post.subtitle %}
         <h3 class="post-subtitle">
