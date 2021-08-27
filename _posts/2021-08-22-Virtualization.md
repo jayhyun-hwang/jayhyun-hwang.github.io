@@ -6,9 +6,9 @@ author: "jay"
 header-style: text
 comments: true
 tags:
-  - Computer Science
-  - Network
-  - OS
+- Network
+- Computer Science
+- OS
 ---
 ### 1. 소개
 

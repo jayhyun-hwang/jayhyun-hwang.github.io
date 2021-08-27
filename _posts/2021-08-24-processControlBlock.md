@@ -6,8 +6,8 @@ author: "jay"
 header-style: text
 comments: true
 tags:
-  - Computer Science
   - OS
+  - Computer Science
 ---
 ### 1. 소개
 
