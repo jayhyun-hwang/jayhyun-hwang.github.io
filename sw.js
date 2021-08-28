@@ -35,7 +35,6 @@ const HOSTNAME_WHITELIST = [
 ]
 const DEPRECATED_CACHES = ['precache-v1', 'runtime', 'main-precache-v1', 'main-runtime']
 
-
 // The Util Function to hack URLs of intercepted requests
 const getCacheBustingUrl = (req) => {
   var now = Date.now();
@@ -256,6 +255,7 @@ function revalidateContent(cachedResp, fetchedResp) {
       const fetchedVer = fetched.headers.get('last-modified')
       console.log(`"${cachedVer}" vs. "${fetchedVer}"`);
       if (cachedVer !== fetchedVer) {
+        caches.delete(CACHE);
         sendMessageToClientsAsync({
           'command': 'UPDATE_FOUND',
           'url': fetched.url
