@@ -1017,7 +1017,7 @@ code, kbd, pre, samp {
 .intro-header .page-heading .subheading, .intro-header .site-heading .subheading {
   font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, "PingFang SC", "Hiragino Sans GB", STHeiti, "Microsoft YaHei", "Microsoft JhengHei", "Source Han Sans SC", "Noto Sans CJK SC", "Source Han Sans CN", "Noto Sans SC", "Source Han Sans TC", "Noto Sans CJK TC", "WenQuanYi Micro Hei", SimSun, sans-serif;
   line-height: 1.7;
-  font-size: 1em;
+  font-size: 16px;
   font-weight: 700;
   line-height: 1.1;
   display: block;
@@ -1025,7 +1025,7 @@ code, kbd, pre, samp {
 }
 @media only screen and (min-width:768px) {
   .intro-header .page-heading h1, .intro-header .site-heading h1 {
-  font-size: 70px;
+  font-size: 60px;
 }
 }.intro-header .post-heading h1 {
   font-size: 30px;
