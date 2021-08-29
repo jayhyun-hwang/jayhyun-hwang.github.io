@@ -998,14 +998,14 @@ code, kbd, pre, samp {
 }
 @media only screen and (min-width:768px) {
   .intro-header .page-heading, .intro-header .post-heading, .intro-header .site-heading {
-  padding: 150px 0;
+  padding: 100px 0;
 }
 }.intro-header .site-heading {
   padding: 95px 0 70px;
 }
 @media only screen and (min-width:768px) {
   .intro-header .site-heading {
-  padding: 150px 0;
+  padding: 100px 0;
 }
 }.intro-header .page-heading, .intro-header .site-heading {
   text-align: center;
@@ -1025,7 +1025,7 @@ code, kbd, pre, samp {
 }
 @media only screen and (min-width:768px) {
   .intro-header .page-heading h1, .intro-header .site-heading h1 {
-  font-size: 60px;
+  font-size: 65px;
 }
 }.intro-header .post-heading h1 {
   font-size: 30px;
