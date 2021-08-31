@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'cute font';
+
+  src: url('CuteFont-Regular.ttf');
+}
 @media (min-width:1200px) {
   .post-container, .sidebar-container {
   padding-right: 5%}
@@ -1015,7 +1020,7 @@ code, kbd, pre, samp {
   font-size: 50px;
 }
 .intro-header .page-heading .subheading, .intro-header .site-heading .subheading {
-  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, "PingFang SC", "Hiragino Sans GB", STHeiti, "Microsoft YaHei", "Microsoft JhengHei", "Source Han Sans SC", "Noto Sans CJK SC", "Source Han Sans CN", "Noto Sans SC", "Source Han Sans TC", "Noto Sans CJK TC", "WenQuanYi Micro Hei", SimSun, sans-serif;
+  font-family: 'cute font',-apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, "PingFang SC", "Hiragino Sans GB", STHeiti, "Microsoft YaHei", "Microsoft JhengHei", "Source Han Sans SC", "Noto Sans CJK SC", "Source Han Sans CN", "Noto Sans SC", "Source Han Sans TC", "Noto Sans CJK TC", "WenQuanYi Micro Hei", SimSun, sans-serif;
   line-height: 1.7;
   font-size: 16px;
   font-weight: 700;
