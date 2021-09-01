@@ -24,7 +24,7 @@ tags:
 
 비동기 시스템에서는, 추가적인 스레드를 시작하여 해결한다. 첫번째 스레드는 첫번째 파일을 가져오고(fetch), 두번째 스레드는 첫번째 스레드가 끝날 때까지 기다리지 않고 두번째 파일을 가져온다. 그 다음, 두 스레드는 서로가 결과를 가져올 때까지 기다린다. 두 스레드 모두 결과를 가져왔을 때, 두 결과를 합치기 위해 재동기화한다.
 
-단일 스레드 접근(single-thread approach)의 또 다른 예로는, OS에서 파일을 가져와서 수학연산을 하는 것이다. 
+단일 스레드 접근(single-thread approach)의 또 다른 예로는, OS에서 파일을 가져와서 연산을 하는 것이 있다. 
 
 https://thecodest.co/blog/asynchronous-and-single-threaded-javascript-meet-the-event-loop/
 
