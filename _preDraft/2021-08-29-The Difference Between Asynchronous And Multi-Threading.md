@@ -26,7 +26,27 @@ tags:
 
 단일 스레드 접근(single-thread approach)의 또 다른 예로는, OS에서 파일을 가져와서 연산을 하는 것이 있다. 
 
-https://thecodest.co/blog/asynchronous-and-single-threaded-javascript-meet-the-event-loop/
+비동기 시스템에서는, OS에게 실행할 파일을 요청하고 기다리는 동안, CPU에서 실행되는 수학적 계산을 수행하고 반환한다.
+
+**비동기 프로그램의 접근방식은, 실행속도가 느린 함수를 하나 실행하고, 그 동안 추가적인 콜백(callback) 함수들을 실행하는 것이다.** 행위가 시작하고 끝날 때, 콜백함수가 결과와 함께 호출된다.
+
+### 3. 멀티스레딩 프로그램이란
+
+**멀티스레딩은 하나 이상의 순차적 명령어 세트(sequential set of instructions)를 동시/병렬적(concurrent/parallel)으로 실행하는 것을 말한다.**
+
+단일 프로세서(single processor)에서, 멀티스레딩으로 실행하는 프로그램은 마치 병렬적으로 실행되는 것 처럼 보인다. 하지만 실제로는, 한 프로세서가 스케줄링 알고리즘을 통해 전환(switching)해가며 실행하는 것이다. 
+
+다중 프로세서(multiple processor) 코어에서의 스레드들이 실제로 병렬적이다. 개별 마이크로프로세서들(individual microprocessors)이 함께 작동하며 결과를 더 효율적으로 달성한다. 여러 작업이 병렬, 동시적으로 수행된다.
+
+멀티스레딩의 예를 들면, 웹 브라우저에서, 서로 다른 두 탭을 통해 두 개의 파일을 다운로드 받는 것이다. 각 탭은 요청된 파일을 다운로드하기 위해 각각 새 스레드를 사용한다. **서로의 탭이 완료되기를 기다리지 않으며, 동시에 다운로드한다.**
+
+다음 그림은 다중 스레드 어플리케이션의 동시 실행에 대한 설명이다.
+
+![multithreading-1024x514](\img\in-post\multithreading-1024x514.png)
+
+### 4. 비동기(Asynchronous) vs 멀티스레딩(Multithreading)
+
+상술한 정의를 통해, 우리는 **멀티스레딩 프로그래밍은 여러 다른 함수들을 동시에 실행하는 것이고, 비동기 프로그래밍은 여러 함수들이 non-blocking으로 실행되는 것임을 알았다.**
 
 
 
