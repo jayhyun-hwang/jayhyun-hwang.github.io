@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "비동기 처리와 멀티 스레딩의 차이"
+title: "비동기(Asynchronous)와 멀티 스레딩(Multi-Threading)의 차이"
 subtitle: "The Difference Between Asynchronous And Multi-Threading"
 author: "jay"
 header-style: text
@@ -56,7 +56,7 @@ tags:
 
 그리고 스레딩이란, "너는 물을 끓여. 나는 토마토 소스를 볶을거야.", "물이 끓으면(When), 나한테 알려줘. 파스타면을 넣을게. 소스가 데워지면(When), 너가 치즈를 넣어줘", "면과 소스가 완성되면(When), 나는 의자에 앉을게, 너는 서빙해줘. 그 다음에 같이 식사하자."라고 말하는 것이다. 이 상황에서, 우리는 **각 사람(스레드)의 일련의 명령 집합(sequential set of instructions)을 나타내는 "When, Do" 시퀀스를 볼 수 있다.**
 
-정리하자면, **멀티스레딩은 작업자에 관한 것이고, 비동기는 작업에 관한 것**임을 알 수 있다. 
+정리하자면, **멀티스레딩은 작업자(Thread)에 관한 것이고, 비동기는 작업(Task)에 관한 것**임을 알 수 있다. 
 
 ### 5. 어느 것을 사용해야하는가
 
