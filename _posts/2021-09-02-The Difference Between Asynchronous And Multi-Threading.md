@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "비동기(Asynchronous)와 멀티 스레딩(Multi-Threading)의 차이"
+title: "비동기와 멀티스레딩"
 subtitle: "The Difference Between Asynchronous And Multi-Threading"
 author: "jay"
 header-style: text
