@@ -17,9 +17,9 @@ description: "<br>새 이름으로 저장<br>Save as birds name"
         {% endif %}
         <div class="post-content-preview">
             {% if post.lang == 'ko' %}
-                {{ post.content | strip_html | truncate:300 }}
+                {{ post.content | strip_html | truncate:100 }}
             {% else %}
-                {{ post.content | strip_html | truncate:200 }}
+                {{ post.content | strip_html | truncate:100 }}
             {% endif %}
         </div>
     </a>
