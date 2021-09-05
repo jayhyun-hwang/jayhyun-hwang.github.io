@@ -6,7 +6,7 @@ description: "<br>새 이름으로 저장<br>Save as birds name"
 {% for post in paginator.posts %}
 <div class="post-preview">
     <a href="{{ post.url | prepend: site.baseurl }}">
-        <h3 style="font-size: 20px !important; color: #0780af; margin-bottom: 0px;">[{{ post.tags[0]}}]</h3>
+        <h3 style="font-size: 20px !important; color: #0780af; margin-bottom: 0px;">📖 {{ post.tags[0]}}</h3>
         <h2 class="post-title" style="margin-top: 10px !important;">
             {{ post.title }}
         </h2>
