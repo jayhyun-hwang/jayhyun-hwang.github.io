@@ -69,7 +69,7 @@ kramdown:
 #   provider: "disqus"
 #   disqus:
 #     shortname: jayhyun
-disqus_username: jays-blog-2
+# disqus_username: jays-blog-2
 
 # Netease settings
 netease_comment: false
