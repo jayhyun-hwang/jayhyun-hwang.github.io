@@ -2,8 +2,8 @@
 layout: page
 description: "<br>새 이름으로 저장<br>Save as birds name"
 ---
-<h4 style="margin: 0; color: #828282;">POSTS</h4>
-<hr style="margin-top: 10px !important;">
+<h4 style="margin: 0; color: #828282;">Recent Posts</h4>
+<hr>
 {% for post in paginator.posts %}
 <div class="post-preview">
     <a href="{{ post.url | prepend: site.baseurl }}">
