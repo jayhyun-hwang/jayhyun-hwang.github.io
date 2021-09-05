@@ -74,7 +74,7 @@ kramdown:
 # Netease settings
 netease_comment: false
 
-issues_repo: jayhyun-hwang/jayhyun-hwang.github.io
+# issues_repo: jayhyun-hwang/jayhyun-hwang.github.io
 
 # Analytics settings
 # Baidu Analytics 
