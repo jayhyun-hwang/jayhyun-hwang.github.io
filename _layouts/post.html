@@ -48,6 +48,11 @@ layout: default
                 </ul>
                 <hr style="visibility: hidden;">
 
+                <!-- github issue comments -->
+                {% if page.comments_id %}
+                    {% include comments.html issue_id=page.comments_id %}
+                {% endif %}
+
                 {% if site.disqus_username %}
                 <!-- disqus 评论框 start -->
                 <div class="comment">
