@@ -2,8 +2,8 @@
 layout: page
 description: "<br>새 이름으로 저장<br>Save as birds name"
 ---
-<a>POSTS</a>
-<hr>
+<p>Posts</p>
+<hr style="margin-top: 10px !important;">
 {% for post in paginator.posts %}
 <div class="post-preview">
     <a href="{{ post.url | prepend: site.baseurl }}">
