@@ -10,9 +10,9 @@ tags:
   - Computer Science
 ---
 
-### 파이썬의 List
+### 파이썬의 List, Tuple
 
-파이썬의 배열
+파이썬의 배열이라고 할 수 있다. `List`는 객체 **변경이 가능**하고, `Tuple`은 정적 선언 후 **수정이 불가**하다.
 
 ### List의 pop(), del, 슬라이스
 
