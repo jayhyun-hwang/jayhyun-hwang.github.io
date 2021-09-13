@@ -6,8 +6,7 @@ author: "jay"
 header-style: text
 comments: true
 tags:
-- Python
-  - Computer Science
+  - Python
 ---
 
 ### 파이썬의 List, Tuple
