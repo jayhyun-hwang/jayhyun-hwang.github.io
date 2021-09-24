@@ -1,6 +1,6 @@
 Hi, I'm Jayhyun Hwang.
 
-I have been working as a software engineer since 2020.
+I have been working as a software developer since 2020.
 
 I can create full web applications, but mainly develop servers.
 
